@@ -38,6 +38,6 @@ public class C02_MavenTest {
         } else {
             System.out.println("test FAILED");
         }
-        driver.close();
+       // driver.close();
     }
 }

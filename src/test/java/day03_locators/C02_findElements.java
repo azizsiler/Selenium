@@ -23,7 +23,7 @@ public class C02_findElements {
         driver.get("https://www.amazon.com");
         List<WebElement> LinkListesi=driver.findElements(By.tagName("a"));
 
-        System.out.println("sayfadaki ink sayisi"+LinkListesi.size());
+        System.out.println("sayfadaki link sayisi"+LinkListesi.size());
         driver.close();
     }
 }
