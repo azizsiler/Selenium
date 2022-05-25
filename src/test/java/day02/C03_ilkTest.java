@@ -10,7 +10,7 @@ class C03_IlkTest {
         WebDriver driver=new ChromeDriver();
         //1- https://www.amazon.com url'ine gidin
          driver.get("https://www.amazon.com");
-    //2- Basligin Amazon kelimesi icerdigini test edin
+    //2- Basligin Amazon kelimesi discerning test edin
         String  actualTitle=driver.getTitle();
         String arananKelime="Amazon";
         if (actualTitle.contains(arananKelime)){
